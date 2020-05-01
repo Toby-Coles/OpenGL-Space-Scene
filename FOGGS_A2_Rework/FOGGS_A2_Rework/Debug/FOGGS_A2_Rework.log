@@ -1,0 +1,39 @@
+﻿  EngineMain.cpp
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(100,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(107,68): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(153,23): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(159,23): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(164,23): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(169,23): warning C4305: '-=': truncation from 'double' to 'float'
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(174,23): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\FOGGS_A2_Rework\EngineMain.cpp(179,23): warning C4305: '-=': truncation from 'double' to 'float'
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+GLUTCallbacks.obj : warning LNK4006: "struct Vector3 __cdecl algorithm::operator*(float const &,struct Vector3 const &)" (??Dalgorithm@@YA?AUVector3@@ABMABU1@@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "float __cdecl math::AngleBetweenV3(struct Vector3,struct Vector3)" (?AngleBetweenV3@math@@YAMUVector3@@0@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "struct Vector3 __cdecl math::CrossV3(struct Vector3,struct Vector3)" (?CrossV3@math@@YA?AUVector3@@U2@0@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "float __cdecl math::DotV3(struct Vector3,struct Vector3)" (?DotV3@math@@YAMUVector3@@0@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "struct Vector3 __cdecl algorithm::GenTriNormal(struct Vector3,struct Vector3,struct Vector3)" (?GenTriNormal@algorithm@@YA?AUVector3@@U2@00@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "float __cdecl math::MagnitudeV3(struct Vector3)" (?MagnitudeV3@math@@YAMUVector3@@@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "struct Vector3 __cdecl math::ProjV3(struct Vector3,struct Vector3)" (?ProjV3@math@@YA?AUVector3@@U2@0@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "bool __cdecl algorithm::SameSide(struct Vector3,struct Vector3,struct Vector3,struct Vector3)" (?SameSide@algorithm@@YA_NUVector3@@000@Z) already defined in EngineMain.obj; second definition ignored
+GLUTCallbacks.obj : warning LNK4006: "bool __cdecl algorithm::inTriangle(struct Vector3,struct Vector3,struct Vector3,struct Vector3)" (?inTriangle@algorithm@@YA_NUVector3@@000@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "struct Vector3 __cdecl algorithm::operator*(float const &,struct Vector3 const &)" (??Dalgorithm@@YA?AUVector3@@ABMABU1@@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "float __cdecl math::AngleBetweenV3(struct Vector3,struct Vector3)" (?AngleBetweenV3@math@@YAMUVector3@@0@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "struct Vector3 __cdecl math::CrossV3(struct Vector3,struct Vector3)" (?CrossV3@math@@YA?AUVector3@@U2@0@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "float __cdecl math::DotV3(struct Vector3,struct Vector3)" (?DotV3@math@@YAMUVector3@@0@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "struct Vector3 __cdecl algorithm::GenTriNormal(struct Vector3,struct Vector3,struct Vector3)" (?GenTriNormal@algorithm@@YA?AUVector3@@U2@00@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "float __cdecl math::MagnitudeV3(struct Vector3)" (?MagnitudeV3@math@@YAMUVector3@@@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "struct Vector3 __cdecl math::ProjV3(struct Vector3,struct Vector3)" (?ProjV3@math@@YA?AUVector3@@U2@0@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "bool __cdecl algorithm::SameSide(struct Vector3,struct Vector3,struct Vector3,struct Vector3)" (?SameSide@algorithm@@YA_NUVector3@@000@Z) already defined in EngineMain.obj; second definition ignored
+main.obj : warning LNK4006: "bool __cdecl algorithm::inTriangle(struct Vector3,struct Vector3,struct Vector3,struct Vector3)" (?inTriangle@algorithm@@YA_NUVector3@@000@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "struct Vector3 __cdecl algorithm::operator*(float const &,struct Vector3 const &)" (??Dalgorithm@@YA?AUVector3@@ABMABU1@@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "float __cdecl math::AngleBetweenV3(struct Vector3,struct Vector3)" (?AngleBetweenV3@math@@YAMUVector3@@0@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "struct Vector3 __cdecl math::CrossV3(struct Vector3,struct Vector3)" (?CrossV3@math@@YA?AUVector3@@U2@0@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "float __cdecl math::DotV3(struct Vector3,struct Vector3)" (?DotV3@math@@YAMUVector3@@0@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "struct Vector3 __cdecl algorithm::GenTriNormal(struct Vector3,struct Vector3,struct Vector3)" (?GenTriNormal@algorithm@@YA?AUVector3@@U2@00@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "float __cdecl math::MagnitudeV3(struct Vector3)" (?MagnitudeV3@math@@YAMUVector3@@@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "struct Vector3 __cdecl math::ProjV3(struct Vector3,struct Vector3)" (?ProjV3@math@@YA?AUVector3@@U2@0@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "bool __cdecl algorithm::SameSide(struct Vector3,struct Vector3,struct Vector3,struct Vector3)" (?SameSide@algorithm@@YA_NUVector3@@000@Z) already defined in EngineMain.obj; second definition ignored
+OBJLoader.obj : warning LNK4006: "bool __cdecl algorithm::inTriangle(struct Vector3,struct Vector3,struct Vector3,struct Vector3)" (?inTriangle@algorithm@@YA_NUVector3@@000@Z) already defined in EngineMain.obj; second definition ignored
+C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\Debug\FOGGS_A2_Rework.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  FOGGS_A2_Rework.vcxproj -> C:\Users\tobyc\OneDrive - Staffordshire University\Year 1\FOGS\FOGGS_A2_Rework\Debug\FOGGS_A2_Rework.exe
